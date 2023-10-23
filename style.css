@@ -4,14 +4,14 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-body{
+body,html{
+    height: 100%;
+    width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('1.jpg');
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
     position: relative;
-
-
 }
 
 #nav {
