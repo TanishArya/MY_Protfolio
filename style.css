@@ -10,13 +10,13 @@ body,html{
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('1.jpg');
     background-size: cover;
     background-position: center;
-    padding: 10px 8%;
-    position: relative;
+    position: static;
 }
 
 #nav {
     height: 100vh;
     width: 200px;
+    padding:30px;
     background-color: rgba(0, 0, 0, 0.804);
     position: fixed;
     box-shadow: 16px 14px 20px #0000008c ;
